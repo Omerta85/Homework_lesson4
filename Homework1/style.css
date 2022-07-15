@@ -1,0 +1,43 @@
+.h600{
+    height: 600px;
+}
+.w100{
+    width: 100%;
+}
+.br{
+    border-radius: 5px;
+}
+.background{
+    background: silver;
+}
+.wrap{
+    height: 850px;
+    border: 2px solid black;
+    padding: 10px;
+}
+.A{
+    height: 200px;
+    margin-bottom: 20px
+}
+.father{
+    display: flex;
+    flex-direction: row;
+    column-gap: 20px;
+    row-gap: 20px;
+}
+.B{
+    width: 75%;
+}
+.C{
+    width: 25%;
+}
+@media screen and (max-width: 768px) {
+    .father{
+       flex-direction: column;
+    }
+    .C, .B{
+       width: 100%;
+    }
+}
+
+

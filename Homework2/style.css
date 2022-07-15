@@ -1,0 +1,65 @@
+.h600{
+    height: 600px;
+}
+.w100{
+    width: 100%;
+}
+.br{
+    border-radius: 5px;
+}
+.background{
+    background: silver;
+}
+.wrap{
+    height: 850px;
+    border: 2px solid black;
+    padding: 10px;
+}
+.A{
+    height: 200px;
+    margin-bottom: 20px
+}
+.father{
+    display: flex;
+    flex-direction: row;
+    column-gap: 20px;
+    row-gap: 20px;
+}
+.container{
+    width: 75%;
+    display: flex;
+    flex-direction: column;
+    column-gap: 20px;
+    row-gap: 20px;
+}
+.B{
+    height: 50%;
+}
+.home {
+    height: 50%;
+    display: flex;
+    flex-direction: row;
+    column-gap: 20px;
+    row-gap: 20px;
+}
+.c, .d, .e{
+    width: 34%;
+    height: 100%;
+}
+.f{
+    width: 25%;
+}
+@media screen and (max-width: 768px) {
+    .father{
+        flex-direction: column;
+    }
+    .container, .f{
+        width: 100%;
+    }
+    .c, .d, .e{
+        width: 30%;
+        height: 60%;
+    }
+}
+
+
